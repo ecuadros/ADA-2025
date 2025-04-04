@@ -8,6 +8,10 @@ int suma(int a, int b){
 int mult(int a, int b){
     return a*b;
 }
+
+int division(int a, int b){
+    return a/b;
+}
 // clang++ -o main main.cpp
 void main(){
     cout << "Hello world!" << endl;
@@ -17,4 +21,7 @@ void main(){
 
     z = mult(x, y);
     cout << "mult z=" << z << endl;
+
+    z = division(x, y);
+    cout << "div z=" << z << endl;
 }
